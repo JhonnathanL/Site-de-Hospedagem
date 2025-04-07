@@ -15,9 +15,10 @@ padding-right: 5%;
 display: inline-block;
 margin-right: 20px;
 padding: 24px 12px;
-font-size: 14px;
-color: rgb(155, 155, 155);
-font-family: "Open Sans", sans-serif;
+font-size: 0.9rem;
+color: rgb(122, 122, 122);
+font-family: "Exo 2", sans-serif;
+transition: ease-in-out 0.3s;
 }
 
 .floatImg {
@@ -32,6 +33,9 @@ animation-name: background-animation;
 color: white;
 animation-duration: 0.5s;
 animation-timing-function: ease-out;
+cursor:pointer;
+border-radius: 1rem;
+height: 1rem;
 }
 
 .menu {
@@ -42,6 +46,7 @@ left: 22%;
 top: 4%;
 text-align: center;
 border: 1px solid rgb(177, 177, 177);
+border-radius: 1rem;
 }
 
 /* Information */
@@ -54,7 +59,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 120px;
-background: #f2f2f2;
+background: #e4f3ff;
 }
 
 .info img {
@@ -86,18 +91,24 @@ height: auto;
 .conteudo {
 margin-top: 5%;
 text-align: center;
+transition: ease-in-out 0.3s;
+}
+
+.conteudo:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .container:nth-of-type(2) .conteudo p {
 line-height: 18px;
 text-align: left;
 padding-left: 2%;
-background: #f2f2f2;
+background: e4f3ff;
 margin-top: 0px;
 }
 
 .container:nth-of-type(3) {
-background: #f2f2f2;
+background: #3d3b3b;
 margin-top: 4%;
 margin-left: 0%;
 margin-right: 0%;
